@@ -1,0 +1,36 @@
+{
+  "name": "ReadableKafkaBatchStream",
+  "version": "0.0.0",
+  "description": "A stream for reading from a Kafka queue using a low-level Kafka consumer (no zookeeper).",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cainus/ReadableKafkaBatchStream.git"
+  },
+  "bugs" : {
+     "url": "https://github.com/cainus/ReadableKafkaBatchStream/issues"
+  },
+  "keywords": [
+    "kafka",
+    "consumer",
+    "stream"
+  ],
+  "author": "Gregg Caines",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "dfbe23cc133125dec7f27bc784e63d6a619cdb3d",
+  "dependencies": {
+    "prozess": "0.6.0",
+    "bignum": "0.6.1"
+  },
+  "devDependencies" : {
+      "jscoverage" : "0.3.6",
+      "coveralls": "1.1.2",
+      "hottap" : "1.0.1",
+      "mocha" : "1.3.0",
+      "should" : "1.1.0"
+  }
+}
