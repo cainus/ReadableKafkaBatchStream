@@ -1,5 +1,5 @@
 {
-  "name": "ReadableKafkaBatchStream",
+  "name": "readable-kafka-batch-stream",
   "version": "0.0.0",
   "description": "A stream for reading from a Kafka queue using a low-level Kafka consumer (no zookeeper).",
   "main": "index.js",
