@@ -23,7 +23,7 @@ var options = {
   host: 'localhost',
   port: 9092,
   offset: null, // Number, String or BigNum
-  maxMessageSize: 1024 * 1024,  // 1 MB
+  maxMessageSize: 1024 * 1024  // 1 MB
 };
 var kafkaStream = new KafkaStream(options);
 
